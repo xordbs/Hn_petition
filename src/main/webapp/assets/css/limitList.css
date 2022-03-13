@@ -1,0 +1,138 @@
+.header_wrap {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    right: 30px;
+    width: auto;
+    height: auto;
+    z-index: 1000;
+    padding: 0;
+}
+
+.header {
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    zoom: 1;
+}
+
+.title {
+    float: left;
+}
+
+.head_btn {
+    float: right;
+    position: relative;
+    z-index: 1;
+}
+
+.head_btn a{
+    padding-left: 20px;
+    line-height: 30px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+.head_btn a:hover{
+    text-decoration: underline;
+}
+
+.container {
+    position: absolute;
+    top: 110px;
+    left: 30px;
+    right: 30px;
+    width: auto;
+}
+
+.contents {
+    position: relative;
+    z-index: 1;
+    display: block;
+}
+
+.cont_tab{
+    display: table;
+    width: 100%;
+    height: 60px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+}
+
+.cont_tab div {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+     
+}
+
+.cont_tab div a{
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    padding: 0 20px;
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 800;
+    color: #888;
+}
+
+.cont_tab div a:hover{
+    color: black;
+}
+
+.cont_tab div:hover ul{
+    display: block;
+}
+
+.cont_tab div ul{
+    position: absolute;
+    top: 45px;
+    list-style: none;
+    display: none;
+    z-index: 10;
+    padding: 8px 0;
+    width: 20%;
+    text-align: right;
+    background-color: #333;
+}
+
+.cont_tab div ul li{
+    display: list-item;
+}
+
+ .bo_title{
+  font-size: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #000000;
+  text-align: left;
+  font-weight: bold;
+}
+table{
+  border-collapse: collapse;
+}
+th{
+padding: 5px;
+}
+td{
+border-top: 3px solid #efefef;
+  border-bottom: 3px solid #efefef;
+  padding: 5px;
+}
+.bo_tbody{
+border-top: 1px solid #FF0000;
+  text-align: center;
+  font-weight: lighter;
+} 
+.article:hover{
+	background-color:lightgray;
+		   cursor: pointer;
+}

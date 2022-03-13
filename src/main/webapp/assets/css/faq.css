@@ -1,0 +1,201 @@
+.header_wrap {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    right: 30px;
+    width: auto;
+    height: auto;
+    z-index: 1000;
+    padding: 0;
+}
+
+.header {
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    zoom: 1;
+}
+
+.title {
+    float: left;
+}
+
+.head_btn {
+    float: right;
+    position: relative;
+    z-index: 1;
+}
+
+.head_btn a{
+    padding-left: 20px;
+    line-height: 30px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+.head_btn a:hover{
+    text-decoration: underline;
+}
+
+.container {
+    position: absolute;
+    top: 110px;
+    left: 30px;
+    right: 30px;
+    width: auto;
+}
+
+.contents {
+    position: relative;
+    z-index: 1;
+    display: block;
+}
+
+.cont_tab{
+    display: table;
+    width: 100%;
+    height: 60px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+}
+
+.cont_tab div {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+     
+}
+
+.cont_tab div a{
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    padding: 0 20px;
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 800;
+    color: #888;
+}
+
+.cont_tab div a:hover{
+    color: black;
+}
+
+.cont_tab div:hover ul{
+    display: block;
+}
+
+.cont_tab div ul{
+    position: absolute;
+    top: 45px;
+    list-style: none;
+    display: none;
+    z-index: 10;
+    padding: 8px 0;
+    width: 20%;
+    text-align: right;
+    background-color: #333;
+}
+
+.cont_tab div ul li{
+    display: list-item;
+}
+
+.cont_view img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.cont_btn {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.cont_btn button{
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+    width: 40%;
+    height: 70%;
+    font-size: 1.25rem;
+    border-radius: .3rem;
+    color: #007bff;
+    border-color: #007bff;
+}
+
+body,p {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+ans {
+    color: #666;
+    text-decoration: none;
+}
+
+.faq {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.faq .hgroup {
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 10px;
+}
+
+.faq .hgroup : after {
+    content: '';
+    display: bloc;
+    clear: both;
+}
+
+.faq .hgroup .h2 {
+    float: left;
+    margin: 15px 0;
+}
+
+.faq ul .q ans {
+    display: block;
+    border-bottom: 1px solid #ccc;
+    padding: 8px 10px;
+    color: #222;
+    font-weight: bold;
+}
+
+.faq ul .ans {
+    display: none;
+    padding: 8px 10px;
+    border-bottom: 1px soild #ccc;
+    color: #444;
+    line-height: 1.6;
+}
+
+.faq ul .article .ans:target {
+    display: block;
+}
+  .article{
+  border-bottom: 1px soild #ccc;
+
+  }
+  
+  .article .q:hover{
+    	background-color:lightgray;
+	cursor: pointer;
+  }
